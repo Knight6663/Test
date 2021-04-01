@@ -16,7 +16,7 @@ z = [1, 2, 3, 1, 2, 2, 3, 3, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 plt.figure(figsize=(20, 10), dpi=80)
 
 plt.plot(x, y, label="自己", color='r')
-plt.plot(x, z, label="她", color='b')
+plt.plot(x, z, label="其他", color='b')
 
 _xtick_labers = ["{}岁".format(i) for i in x]
 plt.xticks(x, _xtick_labers)
