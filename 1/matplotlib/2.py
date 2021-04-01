@@ -9,7 +9,7 @@
 from matplotlib import pyplot as plt
 from random import *
 from matplotlib import rc
-from matplotlib import font_manager
+
 
 # 字体设置方式
 font = {'family': 'MicroSoft YaHei',
