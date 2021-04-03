@@ -22,6 +22,13 @@ _xtick_labers = ["{}岁".format(i) for i in x]
 plt.xticks(x, _xtick_labers)
 plt.yticks(range(0, 7))
 
+
+plt.xlabel("年龄")
+plt.ylabel("个数")
+plt.title("年龄与个数之间的关系")
+
+
+
 plt.grid(alpha=0.3)
 
 # 添加图例
